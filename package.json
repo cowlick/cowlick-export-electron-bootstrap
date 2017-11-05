@@ -20,8 +20,14 @@
     "type": "git",
     "url": "pocketberserker/cowlick-export-electron-bootstrap.git"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "0.17.0",
+    "commandpost": "1.2.1",
+    "semver": "5.4.1"
+  },
   "devDependencies": {
+    "@types/node": "8.0.47",
+    "@types/semver": "5.4.0",
     "typescript": "2.5.3"
   }
 }
