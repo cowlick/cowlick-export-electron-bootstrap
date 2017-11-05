@@ -1,0 +1,27 @@
+{
+  "name": "cowlick-export-electron-bootstrap",
+  "version": "0.0.1",
+  "description": "bootstrap command for cowlick-export-electron",
+  "main": "lib/cli.js",
+  "bin": {
+    "cowlick-export-electron-bootstrap": "./bin/run"
+  },
+  "files": [
+    "lib",
+    "bin"
+  ],
+  "scripts": {
+    "postinstall": "npm install cowlick-export-electron",
+    "build": "tsc -p ."
+  },
+  "author": "pocketberserker",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "pocketberserker/cowlick-export-electron-bootstrap.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "2.5.3"
+  }
+}

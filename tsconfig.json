@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "noLib": false,
+    "sourceMap": false,
+    "noImplicitAny": true,
+    "outDir": "./lib"
+  },
+  "files": [
+    "./src/cli.ts"
+  ]
+}
