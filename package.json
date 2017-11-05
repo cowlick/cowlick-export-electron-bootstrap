@@ -11,7 +11,6 @@
     "bin"
   ],
   "scripts": {
-    "postinstall": "npm install --no-save cowlick-export-electron",
     "build": "tsc -p ."
   },
   "author": "pocketberserker",
