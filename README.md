@@ -12,6 +12,6 @@ Rewrite `package.json`:
 
 ```diff
     "scripts": {
-+       "prepare:": "cowlick-export-electron-bootstrap",
-        "publish": "cowlick-export-electron .",
++       "bootstrap": "cowlick-export-electron-bootstrap",
++       "bundle": "npm run bootstrap && cowlick-export-electron .",
 ```
