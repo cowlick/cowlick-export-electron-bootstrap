@@ -1,5 +1,5 @@
 {
-  "name": "cowlick-export-electron-bootstrap",
+  "name": "@cowlick/export-electron-bootstrap",
   "version": "0.0.1",
   "description": "bootstrap command for cowlick-export-electron",
   "main": "lib/cli.js",
@@ -29,5 +29,8 @@
     "@types/node": "10.12.18",
     "@types/semver": "5.5.0",
     "typescript": "3.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
